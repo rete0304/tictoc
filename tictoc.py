@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
-
+"""
+dev1.0
+"""
 import game
 
 def app():
