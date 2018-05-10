@@ -40,8 +40,9 @@ class TestGame(TestCase):
 
         self.assertEqual(g.isWin([[0, 0], [0, 1], [1, 2]]),False)
         self.assertEqual(g.isWin([[0, 0], [0, 1], [0, 2]]),True)
-
-
+        self.assertEqual(g.isWin([[0, 0], [0, 1], [0, 2], [1, 2]]), True)
+        self.assertEqual(g.isWin([[0, 0], [0, 1], [2, 2], [1, 2]]), False)
+        self.assertEqual(g.isWin([[0, 0], [0, 1]]), False)
 
     def test_draw(self):
         pass

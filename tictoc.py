@@ -5,8 +5,9 @@ import game
 def app():
     gameObj = game.game()
     while(gameObj.end == False):
-        gameObj.put()
+
         gameObj.draw()
+        gameObj.put()
         gameObj.check()
         #3種狀況會結束遊戲:
         #1.O贏

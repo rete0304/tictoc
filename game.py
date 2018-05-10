@@ -11,6 +11,7 @@ class game():
         self.position_convert = {"ul":[0,0] , "um":[0,1] , "ur":[0,2],
                                  "ml":[1,0] , "mm":[1,1] , "mr":[1,2],
                                  "bl":[2,0] , "bm":[2,1] , "br":[2,2]}
+        self.show_position = [['ul', 'um', 'ur'], ['ml', 'mm', 'mr'], ['bl', 'bm', 'br']]
         self.end = False
     def put(self):
         if self.side == 0:
@@ -43,11 +44,11 @@ class game():
         for x in range(3):
             for y in range(3):
                 if( [x,y] in self.player1.position):
-                    print " X ",
+                    print " "+self.player1.player_type+" ",
                 elif ([x, y] in self.player2.position):
-                    print " O ",
+                    print " " + self.player2.player_type + " ",
                 else:
-                    print "   ",
+                    print " " + self.show_position[x][y],
                 if y<2:
                     print "|",
             print ""
@@ -63,11 +64,14 @@ class game():
         4.檢查中沒有和局也沒有獲勝，則回傳-1
         """
         if self.put_times > 8:
+            print "No Body WIN This Game"
             self.end = True
         if self.isWin(self.player1.position) == True:
+            print self.player1.player_type+" WIN This Game"
             self.end = True
             return 0
         if self.isWin(self.player2.position) == True:
+            print self.player1.player_type + " WIN This Game"
             self.end = True
             return 1
 
@@ -84,7 +88,7 @@ class game():
         return (( pos in self.player1.position ) or (pos in self.player2.position) )
 
     def isWin(self,position):
-        wen_table = [[[0, 0], [0, 1], [0, 2]],
+        win_table = [[[0, 0], [0, 1], [0, 2]],
                      [[1, 0], [1, 1], [1, 2]],
                      [[2, 0], [2, 1], [2, 2]],
                      [[0, 0], [1, 0], [2, 0]],
@@ -94,13 +98,14 @@ class game():
                      [[2, 0], [1, 1], [0, 2]]]
         check_result = False
 
-        """
-        for t_list in wen_table:      
-            if(cmp(position,t_list) == 2):
+
+        for t_list in win_table:
+            #直接檢查贏的3個座標是否同時在win table的某一個list面
+            if (t_list[0] in position ) and \
+               (t_list[1] in position ) and \
+               (t_list[2] in position ):
                 check_result = True
-                return check_result           
-        return check_result
-        """
+                return check_result
         return check_result
 
     def __del__(self):
