@@ -40,10 +40,20 @@ class game():
 
 
     def draw(self):
-        print "X"
-        print self.player1.position
-        print "O"
-        print self.player2.position
+        for x in range(3):
+            for y in range(3):
+                if( [x,y] in self.player1.position):
+                    print " X ",
+                elif ([x, y] in self.player2.position):
+                    print " O ",
+                else:
+                    print "   ",
+                if y<2:
+                    print "|",
+            print ""
+            if(x<2):
+                print "----*-----*-----"
+
 
     def check(self):
         """

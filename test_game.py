@@ -19,6 +19,7 @@ class TestGame(TestCase):
         self.assertEqual(g.isRepeat([2, 1]), True)
 
         del g
+
     def test_check(self):
         g = game()
 
@@ -27,16 +28,30 @@ class TestGame(TestCase):
 
         g.put_times = 9
         g.check()
-        self.assertEqual(g.end,True)
+        self.assertEqual(g.end, True)
 
-        g.player1.position = [[0,0],[0,1],[0,2]]
+        g.player1.position = [[0, 0], [0, 1], [0, 2]]
         g.check()
         self.assertEqual(g.end, True)
         del g
+
     def test_isWin(self):
-        pass
-        """
         g = game()
 
         self.assertEqual(g.isWin([[0, 0], [0, 1], [1, 2]]),False)
+        self.assertEqual(g.isWin([[0, 0], [0, 1], [0, 2]]),True)
+
+
+
+    def test_draw(self):
+        pass
+        """
+        #because is working,so hiding
+        
+        g = game()
+        g.draw()
+
+        g.player1.position=[[1,0],[1,1],[1,2]]
+        g.player2.position=[[0,0],[0,1],[0,2]]
+        g.draw()
         """
