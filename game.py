@@ -7,6 +7,8 @@ class game():
         self.player2 = player.player("X")
         self.checkerboard = []
         self.put_times = 0 #當數字為九代表棋盤塞滿了
+        self.isRest = False
+        self.isQuit = False
         self.side = 1 #0代表"O"方，1代表"X"方
         self.position_convert = {"ul":[0,0] , "um":[0,1] , "ur":[0,2],
                                  "ml":[1,0] , "mm":[1,1] , "mr":[1,2],
@@ -24,6 +26,15 @@ class game():
         while(put_success != True):
             print "You are player ",player_now.player_type," ,put you chess:"
             put_position = raw_input()
+
+            if put_position == "r":
+                self.isRest = True
+                break
+
+            if put_position == "q":
+                self.isQuit = True
+                break
+
             if put_position not in self.position_convert: #檢查輸入是否正確
                 continue
 
@@ -62,6 +73,8 @@ class game():
         2.如果某一排的O排成一列，則回傳0
         3.如果某一排的X排成一列，則回傳1
         4.檢查中沒有和局也沒有獲勝，則回傳-1
+        5.如果重新旗標(isRest)為真，則遊戲直接重新，不論和局
+        6.如果放棄旗標(isQuit)為真，則遊戲直接跳出
         """
         if self.put_times > 8:
             print "No Body WIN This Game"
@@ -74,7 +87,12 @@ class game():
             print self.player2.player_type + " WIN This Game"
             self.end = True
             return 1
-
+        if self.isRest == True:
+            print "Someone Reset The Game!!"
+            self.end = False
+        if self.isQuit == True:
+            print "Bye!"
+            self.end = True
         return -1
     def isRepeat(self,pos):
         """
