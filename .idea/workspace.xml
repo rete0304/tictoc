@@ -7,10 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6b147fb-f63d-40fc-ad29-b788da66dab6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/game.py" afterPath="$PROJECT_DIR$/game.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_game.py" afterPath="$PROJECT_DIR$/test_game.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,8 +21,8 @@
       <file leaf-file-name="tictoc.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tictoc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            <state relative-caret-position="158">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -34,8 +31,18 @@
       <file leaf-file-name="game.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/game.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="101" column="27" lean-forward="true" selection-start-line="101" selection-start-column="27" selection-end-line="101" selection-end-column="27" />
+            <state relative-caret-position="184">
+              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -54,8 +61,8 @@
       <file leaf-file-name="test_game.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_game.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="382">
+              <caret line="44" column="45" lean-forward="false" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -72,13 +79,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/player.py" />
-        <option value="$PROJECT_DIR$/tictoc.py" />
         <option value="$PROJECT_DIR$/test_game.py" />
+        <option value="$PROJECT_DIR$/tictoc.py" />
         <option value="$PROJECT_DIR$/game.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="800" />
     <option name="width" value="800" />
     <option name="height" value="860" />
   </component>
@@ -137,7 +146,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_game.py">
+  <component name="RunManager" selected="Python.tictoc">
     <configuration name="Unittests in test_game.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -175,8 +184,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_game.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python.tictoc" />
+        <item index="0" class="java.lang.String" itemvalue="Python.tictoc" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_game.py" />
       </list>
     </recent_temporary>
   </component>
@@ -191,42 +200,57 @@
       <option name="presentableId" value="Default" />
       <updated>1525859494434</updated>
     </task>
+    <task id="LOCAL-00001" summary="1.畫面改版成會有座標輸入&#10;2.輸贏OK">
+      <created>1525959569740</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1525959569740</updated>
+    </task>
+    <task id="LOCAL-00002" summary="增加Readme">
+      <created>1525959907004</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1525959907004</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_game_py - 2018.05.10 at 21h 10m 44s.xml">
+    <history-entry file="Unittests_in_test_game_py - 2018.05.10 at 21h 19m 08s.xml">
       <configuration name="Unittests in test_game.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_game_py - 2018.05.10 at 21h 11m 07s.xml">
+    <history-entry file="Unittests_in_test_game_py - 2018.05.10 at 21h 20m 15s.xml">
       <configuration name="Unittests in test_game.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_game_py - 2018.05.10 at 21h 11m 15s.xml">
+    <history-entry file="Unittests_in_test_game_py - 2018.05.10 at 21h 20m 22s.xml">
       <configuration name="Unittests in test_game.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_game_py - 2018.05.10 at 21h 11m 23s.xml">
+    <history-entry file="Unittests_in_test_game_py - 2018.05.10 at 21h 20m 43s.xml">
       <configuration name="Unittests in test_game.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_game_py - 2018.05.10 at 21h 11m 47s.xml">
+    <history-entry file="Unittests_in_test_game_py - 2018.05.10 at 21h 20m 48s.xml">
       <configuration name="Unittests in test_game.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_game_py - 2018.05.10 at 21h 11m 51s.xml">
+    <history-entry file="Unittests_in_test_game_py - 2018.05.10 at 21h 20m 53s.xml">
       <configuration name="Unittests in test_game.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_game_py - 2018.05.10 at 21h 12m 06s.xml">
+    <history-entry file="Unittests_in_test_game_py - 2018.05.10 at 21h 21m 00s.xml">
       <configuration name="Unittests in test_game.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_game_py - 2018.05.10 at 21h 12m 11s.xml">
+    <history-entry file="Unittests_in_test_game_py - 2018.05.10 at 21h 21m 09s.xml">
       <configuration name="Unittests in test_game.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_game_py - 2018.05.10 at 21h 12m 20s.xml">
+    <history-entry file="Unittests_in_test_game_py - 2018.05.10 at 21h 21m 26s.xml">
       <configuration name="Unittests in test_game.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_game_py - 2018.05.10 at 21h 12m 33s.xml">
+    <history-entry file="Unittests_in_test_game_py - 2018.05.10 at 21h 21m 31s.xml">
       <configuration name="Unittests in test_game.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="800" height="860" extended-state="0" />
+    <frame x="800" y="0" width="800" height="860" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44260204" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -234,7 +258,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31866667" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31866667" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -251,6 +275,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.畫面改版成會有座標輸入&#10;2.輸贏OK" />
+    <MESSAGE value="增加Readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加Readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -299,14 +328,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tictoc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/player.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -317,18 +338,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state relative-caret-position="382">
+          <caret line="44" column="45" lean-forward="false" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tictoc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="101" column="27" lean-forward="true" selection-start-line="101" selection-start-column="27" selection-end-line="101" selection-end-column="27" />
+        <state relative-caret-position="184">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding />
         </state>
       </provider>
