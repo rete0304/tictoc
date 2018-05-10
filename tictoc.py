@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-V1.0
-"""
-import game
+"""V2"""import game
 
 def app():
     gameObj = game.game()
