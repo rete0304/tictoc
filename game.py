@@ -71,7 +71,7 @@ class game():
             self.end = True
             return 0
         if self.isWin(self.player2.position) == True:
-            print self.player1.player_type + " WIN This Game"
+            print self.player2.player_type + " WIN This Game"
             self.end = True
             return 1
 
@@ -109,4 +109,4 @@ class game():
         return check_result
 
     def __del__(self):
-        print('__del__')
+        pass

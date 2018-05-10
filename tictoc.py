@@ -6,11 +6,13 @@ import game
 
 def app():
     gameObj = game.game()
+    gameObj.draw()
     while(gameObj.end == False):
 
-        gameObj.draw()
+
         gameObj.put()
         gameObj.check()
+        gameObj.draw()
         #3種狀況會結束遊戲:
         #1.O贏
         #2.X贏
